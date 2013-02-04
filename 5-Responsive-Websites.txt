@@ -15,54 +15,73 @@ Audience: Web Designers
 Priority: Conference Registration for each location.
 
 Desktop to Mobile: 
-The logo shrinks and the columned information begins to shrink and stack up on eachother as each breakpoint is met when shrinking the browser. Navigation for
-each conference location is carried on by they thuubnails as the browser hits
-smaller breakpoints.
+The logo shrinks. The columned information begins to shrink and stack up on eachother as each 
+breakpoint is met as the browser gets smaller. Navigation for each conference location is carried 
+on by the thumbnails as the browser hits smaller breakpoints. The main slideshow is displayed at 
+the browsers largest display size. At the bottom of the slideshow, thumbnails for each conference 
+location representing each slide are displayed so that the user can click on the location they're 
+looking for and register. 
 
-Images:
-The main slideshow is displayed at the browsers largest display size. 
-At the bottom of the slideshow, thumbnails for each conference location 
-representing each slide are displayed so that the user can click on the
-location they're looking for and register. 
+At the next breakpoint, the slideshow is replaced by two columns of thubnails for each event location. 
+The user can then click on their location and register. The columns at the bottom are consolidated 
+into category links that bring you to another page.
 
-At the next breakpoint for more tablet sized screens, the slideshow is replaced
-by two columns of thubnails for each event location. The user can then click on their location
-and register. The columns at the bottom are consolidated into category links 
-that bring you to another page.
-
-At the last breakpoint, the thumbnails are stretched to fit the entire width of the browser and all elements are put into a single columb format, stacked one
-above the next. 
+At the last breakpoint, the thumbnails are stretched to fit the entire width of the browser and 
+all elements are put into a single columb format, stacked one above the next. 
 
 2. Create: http://createdm.com/
 Audience: Any organization in need of an mobile application
 Priority: Navigation menu, graphics, company slogan.
 
-This site was one of the few sites that managed to keep their main slideshow, as well as everything else except the blurb
-about their company. Their images shrink down relative the the browser size at each breakpoint, and the elements lower down
-are modulized and stacked on eachother, then shrink. 
-It's almost as if they started the way the speaker in the
-Responsive Design video recommended: start with the extremes, 
-or start with the smallest and the largest and work from there. That could explain the cool overall simplicity of the site that 
-shrinks down naturally while sacrificing very little.
+This site was one of the few sites that managed to keep their main slideshow, as well as everything 
+else except the blurb about their company. Their images shrink down relative the the browser size at 
+each breakpoint, and the elements lower down are modulized and stacked on eachother, then shrink. 
+It's almost as if they built it the way the speaker in the Responsive Design video recommended: start 
+with the extremes (the smallest and the largest) and work from there. That could explain 
+the cool overall simplicity of the site that shrinks down naturally while sacrificing very little.
 
 3. Cacao: http://www.cacaotour.com/index.php/en/home
 Audience: Anyone interested in their product (chocolate)
 Priority: Entire navigation bar, then an about us.
 
-The desktop starts out with layered backgrounds, a gigantic image in the header, and the navigation bar at top.The index page is filled with a lot of information and includes a contact form at the bottom of the page. When it shrinks down to mid size, the giant image is removed and replaced with an enlarged image of one of the photos that were below. The other images have been moved up. While the placement of sections are still sort of the same, they've been shifted to accomodate the small browser size into a thinned out two column layout. Other background images have been removed from lower sections, probably to help improve loading time, and simplify the color scheme.When sized for mobile, the navigation links are stacked ontop of eachother, and is followed by the about-us blurb. Everything is pushed into a one column layout, and two selected gallery images for the tablet layout are sized to fill the width of the browser size. The images below are shrunk to fall into a two column layout. Everything else below flows into a one column layout. 
+The desktop starts out with layered backgrounds, a gigantic image in the header, and the navigation 
+bar at top.The index page is filled with a lot of information and includes a contact form at the bottom 
+of the page. When it shrinks down to mid size, the giant image is removed and replaced with an enlarged 
+image of one of the photos that were below. The other images have been moved up. While the placement of 
+sections are still sort of the same, they've been shifted to accomodate the small browser size into a 
+thinned out two column layout. Other background images have been removed from lower sections, probably 
+to help improve loading time and simplify the color scheme.When sized for mobile, the navigation links 
+are stacked ontop of eachother and is followed by the about-us blurb. Everything is pushed into a one 
+column layout, and two selected gallery images for the tablet layout are sized to fill the width of the 
+browser. The images below are shrunk to fall into a two column layout. Everything else below flows 
+into a one column layout. 
 
 4. Hello Fisher: http://hellofisher.com/
 Audience: Businesses looking for a website
 Priority: Keeping the graphic image and his logo, followed by his types of services/skills.
 
-The developer Seemed to have intentionally kept the number of items in his navigation bar limited to three so that it can shrink, stay in the same place, and never get stacked as the browser size starts to shrink. The logo starts to the left and then moves about the main portrait of himself. What I love about this site is how he plays with the main image he provides. His face and pose change at certain breakpoints, which plays into his slogan "I craft user experiences that delight!"
+The developer seemed to have intentionally kept the number of items in his navigation bar limited to 
+three so that it can shrink, stay in the same place, and never get stacked as the browser size starts 
+to get smaller. The logo starts to the left and then moves above the main portrait of developer. What 
+I like about this site is how he plays with the main image he provides. His face and pose change at 
+certain breakpoints, which plays into his slogan "I craft user experiences that delight!"
 
-The images below start in a three column layout for the desktop size, move into a two column layout for mid-size, then fall into a one column layout. The images size to fit the browser size at tweek points but stick with these three layouts.
+The images below start in a three column layout for the desktop size, move into a two column layout 
+for mid-size, then fall into a one column layout. The images size to fit the browser size at tweek 
+points but stick with these three layouts.
 
 5. Forefathers: http://forefathersgroup.com/
-Audience: Businesses in need of design work and development for their business (logos, print, websites, branding, etc.)
+Audience: Businesses in need of design work and development for their business (logos, print, websites, 
+branding, etc.)
 Priorities: Logo, navigation menu.
 
-The desktop is more graphic heavy with large images. The horizontal navigation menu is at the top. As the browser shrinks, these navigation links are put into a transparent boxes to draw some attention to them so they don't get lost in the other elements. The slideshow below shrinks. As it get smaller, the larger graphical images are removed, the second nav menu below is eliminated along with the positive-client-feedback section. The slideshow is kept but reduced in size. The entire site is pulled into that one column layout. The list of clients remains at the bottom with the image of a man on a bike now superimposed. Everything but the social media links down at the bottom are eliminated from the footer.
+The desktop is more graphic heavy with large images. The horizontal navigation menu is at the top. As 
+the browser shrinks, these navigation links are put into transparent boxes that draw some attention to 
+them so they don't get lost in the rest of the page. The slideshow below shrinks. As it get smaller, the 
+larger graphical images are removed, the second nav menu below the main top nav is eliminated along with 
+the positive-client-feedback section. The slideshow is kept but reduced in width size, but not in height
+too much. The entire site is pulled into that one column layout. The list of clients remains at the 
+bottom with the image of a man on a bike now superimposed. Everything but the social media links down 
+at the bottom are eliminated from the footer.
 
 

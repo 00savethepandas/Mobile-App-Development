@@ -1,0 +1,20 @@
+MOBILE APPLICATION DEVELOPMENT
+- modernizer: http://modernizr.com/
+- html5 boiler plate: http://html5boilerplate.com/
+- Jquery and JQuery mobile.
+- Jquery is a high level interface to JavaScript.
+- CSS media queries.com
+- model view control(mvc):
+model: 
+view: presentation
+control: 
+
+- backbone.js: mvc framework to build j avascript applications.
+- sencha: jquery but better graphics.
+- ngauthier.com/2012/02/raphael-backbone-traer.html
+- next class: finish foundations of programming. Start media queries,
+  javascript.
+- boilerplate html will provide the framework for our projects.
+mv html5-boilerplate /html5
+
+mv .htaccess htaccess

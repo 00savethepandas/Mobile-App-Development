@@ -20,3 +20,10 @@ control:
 mv html5-boilerplate /html5
 
 mv .htaccess htaccess
+
+- Best for responsive:
+   information
+   eCommerce
+   absolute response?
+- IAB.com: advertisement standards
+- 

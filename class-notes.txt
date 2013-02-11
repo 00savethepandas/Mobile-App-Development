@@ -26,4 +26,18 @@ mv .htaccess htaccess
    eCommerce
    absolute response?
 - IAB.com: advertisement standards
+- use ems instead of pxs for devices:
+
+margin: 1em;
+paddgin: 1em;
+// size of the font will determine the size of the em.
+
+- one e is equal to the size of an m
+- use % for h tags
+ex. h1 { font-size: 200%}
+  h2 {font-size: 180%, 140%, 100%}
+
+- use ems and %
+- headings: use %
+- float: clears line return from the line return
 - 

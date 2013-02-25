@@ -40,4 +40,8 @@ ex. h1 { font-size: 200%}
 - use ems and %
 - headings: use %
 - float: clears line return from the line return
-- 
+- Thursday - Test: what is a media query, writing a media query, what is responsive design, responsive design lynda video questions. 1 hour test
+- Data roll
+
+1. jQuery mobile script link.
+2. 

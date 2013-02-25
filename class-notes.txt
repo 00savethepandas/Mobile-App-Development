@@ -45,3 +45,10 @@ ex. h1 { font-size: 200%}
 
 1. jQuery mobile script link.
 2. 
+
+- know event loop, game loop
+- know call back functions.
+- prebuilt jquery events: http://api.jquerymobile.com/category/events/
+- Test: Responsive web design videos, media queries
+- swipe events, etc.
+- 

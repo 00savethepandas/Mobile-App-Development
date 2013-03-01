@@ -1,0 +1,49 @@
+@media only screen and (max-width: 15em){
+	body {
+		background-color: #fff;
+		color: #231f20;
+		font-family: Arial, Helvetica, sans-serif;
+	}
+	#content {
+		background-color: #f6ac7b;
+		padding:2em;
+	}		
+}		
+@media only screen and (min-width: 16em) and (max-width: 30em) {
+	body {
+		background-color: #f0f0;
+		font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+		color: #fff;
+	}
+	#content {
+		background-color: #88ada3;
+		padding:2em;
+		}
+}	
+@media only screen and (min-width:31em) and (max-width: 45em) {
+	body{
+		font-family: "Courier New", Courier, monospace;
+		background-color: #e4e4e4;
+		color: #fff;
+	}
+	#content {
+		background-color: #231f20;
+		padding:2em;
+	}
+}
+@media only screen and (min-width: 45em){
+	body {
+		background-color: #c5cb8c;
+		color: #231f20;
+		font-family: Arial, Helvetica, sans-serif;
+	}
+	#content {
+		background-color: #fff;
+		padding:2em;
+	}		
+}	
+		
+}
+	
+	
+	

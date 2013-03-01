@@ -40,15 +40,19 @@ ex. h1 { font-size: 200%}
 - use ems and %
 - headings: use %
 - float: clears line return from the line return
+
+
 - Thursday - Test: what is a media query, writing a media query, what is responsive design, responsive design lynda video questions. 1 hour test
+- Test: Responsive web design videos, media queries
+
 - Data roll
 
 1. jQuery mobile script link.
 2. 
 
-- know event loop, game loop
-- know call back functions.
+- what is event binding?
+- what is an event loop, game loop
+- what are call back functions?
 - prebuilt jquery events: http://api.jquerymobile.com/category/events/
-- Test: Responsive web design videos, media queries
 - swipe events, etc.
 - 

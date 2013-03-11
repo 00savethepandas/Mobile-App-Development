@@ -1,0 +1,190 @@
+JQUERY MOBILE
+- JQuery Mobile is a structure or framework for mobile
+- jQuery library is already part of it
+- simple html5
+- converts to native app look
+- works well on different devices
+- adapts
+
+Installing: CDN (content delivery network)
+1. Use the css file to over-ride the styles in jQuery
+2. Viewport tag
+3. 3 jQuery links
+4. your js script
+5. your css.
+6. check that it was all imported. Type should be helvetica.
+
+jquerymobile.com/downloads
+- you can get rid of the structure and theme files. css version for jquery that doesn't have a lot of the built in jquery functions. You don't have to keep overriding these styles if you eliminiate them.
+- you can choose to use the minified or full loaded.
+- non-minified have a lot of comments.
+- the images folder that comes with the jQuery downloads have to go into the css folder with the jquery.mobile css file.
+- go to the jQuery website and download the file for jQuery itself, or use the cdn.
+(http://jquery.com/download/?rdfrom=http%3A%2F%2Fdocs.jquery.com%2Fmw%2Findex.php%3Ftitle%3DDownloading_jQuery%26redirect%3Dno), jquery.com/Downloading_jQuery
+
+MULTIPAGE DOCUMENT
+- html5: store information in data
+- data attribute invisible to user
+- you can create pages.
+
+<!-- Multipage Data-roll-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>View Source</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+	<link rel="stylesheet" href="_/css/jquery.mobile.css" />
+	<script src="_/js/jquery.js"></script>
+	<script src="_/js/jquery.mobile.js"></script>
+
+	<script src="_/js/myscript.js"></script>
+	<link rel="stylesheet" href="_/css/mystyles.css" />
+</head>
+<body>
+	<div id ="home" data-role="page"> <!-- Here is 1st page-->
+	<p>Welcome to the View Source App</p>
+	</div>
+</body>
+</html>
+
+<!-- End example -->
+
+- Data-transitions
+	<div id ="home" data-role="page">
+	<p>Welcome to the View Source App. Data transition of "flip"</p>
+	<a href="#contact-us" data-transition="flip">Contact Us</a>
+	</div>
+	
+	<div id ="contact-us" data-role="page">
+	<p>This is the contact us page. Data transition of "pop"</p>
+	<a href="#home" data-transition="pop">Home</a>
+	</div>
+
+- list of data transitions (jquerymobile.com/demos/1.1.0/docs/pages/page-transitions.html)
+
+- adding headers:
+
+	<div id="home" data-role="page">
+		<div data-role="header">
+			<h1>Home</h1>
+			<a href="#home">Home</a>
+			<a href="#blog">Blog</a>
+		</div>
+		<p>Welcome to the View Source App</p>
+		<a href="#blog" data-transition="flip">Blog</a>
+	</div>
+	
+- icon buttons using data-icon="home" or arrow, etc.:
+
+		<div data-role="header">
+			<h1>Home</h1>
+			<a href="#home" data-icon="home">Home</a>
+			<a href="#blog" data-icon="arrow-r">Blog</a>
+		</div>
+
+- see other buttons: http://jquerymobile.com/demos/1.1.0/docs/buttons/buttons-icons.html
+
+- Positioning Icons: data-iconpos
+
+		<div data-role="header">
+			<a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+		</div>
+
+- changing default button position:
+
+		<div data-role="header">
+			<a href="#home" data-icon="home" data-iconpos="notext" class="ui-btn-right">Home</a>
+		</div>
+
+- to change defaults, go to 'inspect element' to see what class or property needs to be changed, and then select which one that you want, add in the class at the anchor:
+- ex. Home button is the ui-btn-left by default, write in ui-btn-right manually.
+
+- Each multipage title defaults to view source. To change it, use the data-title attribute: 
+
+	<div id="home" data-role="page" data-title="View Source: Home">
+		<div data-role="header">
+			<h1>Home</h1>
+			<a href="#blog" data-icon="arrow-r" data-iconpos="right" class="ui-btn-right">Blog</a>
+		</div>
+		<p>Welcome to the View Source App</p>
+		<a href="#blog" data-transition="flip">Blog</a>
+	</div>
+	
+USING BUTTONS
+- You can create buttons by adding the data-role="button" attribute.
+- Style an element to look like a native control.
+
+		<p>Welcome to the View Source App</p>
+		<a href="#blog" data-transition="flip" data-role="button">Blog</a>
+
+Other attributes:
+(jquerymobile.com/demos/1.1.0/docs/buttons/buttons-icons.html)
+		<p>Welcome to the View Source App</p>
+		<a href="#blog" 
+		data-transition="flip" 
+		data-role="button"
+		data-mini="true"
+		data-inline="true">Blog</a>
+				<a href="#blog" 
+		data-transition="flip" 
+		data-role="button"
+		data-mini="true"
+		data-inline="true"
+		data-icon="grid"
+		data-iconpos="right">Blog</a>
+	
+- Data-role="controlgroup" controls the group of buttons.
+- You can alo position them with data-iconpos="top"
+
+<div id="home" data-role="page" data-title="View Source: Home">
+		<div data-role="header">
+			<h1>Home</h1>
+			<a href="#blog" data-icon="arrow-r" data-iconpos="right" class="ui-btn-right">Blog</a>
+		</div>
+		<p>Welcome to the View Source App</p>
+		<div data-role="controlgroup"
+		data-type="horizonatal">
+		<a href="#blog" 
+		data-transition="flip" 
+		data-role="button"
+		data-mini="true"
+		data-inline="true" // Lines up horizontally
+		data-icon="arrow-r"
+		data-iconpos="top">Blog</a>
+		
+		<a href="#videos" 
+		data-transition="flip" 
+		data-role="button"
+		data-mini="true"
+		data-icon="arrow-r"
+		data-iconpos="top">Videos</a>
+		
+				<a href="#photos" 
+		data-transition="flip" 
+		data-role="button"
+		data-mini="true"
+		data-icon="arrow-r"
+		data-iconpos="top">Photos</a>
+		
+				<a href="#tweets" 
+		data-transition="flip" 
+		data-role="button"
+		data-mini="true"
+		data-icon="arrow-r"
+		data-iconpos="top">Tweets</a>
+		</div>
+	</div>
+
+	<div id="blog" data-role="page" data-title="View Source: Blog">
+		<div data-role="header">
+			<h1>Blog</h1>
+			<a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+		</div>
+		<p>This is our blog.</p>
+		<a href="#home" data-transition="pop">Home</a>
+	</div>
+
+- data-type="horizontal", lines them up horizontally

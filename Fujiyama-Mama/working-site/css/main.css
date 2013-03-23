@@ -93,6 +93,7 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+@media only screen and (min-width )
 #header-left {
 	width: 20%;
 	height: 5.5em;
@@ -100,7 +101,6 @@ textarea {
 	background-color: rgb(209,211,211);
 	clear: left;
 }
-
 #header-right {
 	width: 80%;
 	height: 5.5em;
@@ -117,7 +117,6 @@ textarea {
 	font-weight: none;
 	font-family: 'Yanone Kaffeesatz', sans-serif;
 }
-
 ul {
 	padding: 0px;
 	margin: 0px;
@@ -134,7 +133,6 @@ ul li {
 	margin: auto;
 	height: 16em;
 }
-
 #strip {
 	background-color: #000;
 	height: 0.5em;
@@ -149,7 +147,6 @@ ul li {
 #content {
 	padding: 1em;
 }
-
 #btmNavBG {
 	background-color: #fff;
 }
@@ -160,7 +157,6 @@ ul li {
 #btmContent {
 	padding: 1em;
 }
-
 footer {
 	background-color: #000;
 }
@@ -177,18 +173,6 @@ footer {
 .control {
 	clear: both;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* ==========================================================================
    Helper classes

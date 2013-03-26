@@ -188,3 +188,6 @@ Other attributes:
 	</div>
 
 - data-type="horizontal", lines them up horizontally
+
+FOOTER
+- <div data-role="footer" data-position="fixed"> : locks the div at the bottom of the page so it stays in view when scrolling.

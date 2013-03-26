@@ -56,3 +56,12 @@ ex. h1 { font-size: 200%}
 - prebuilt jquery events: http://api.jquerymobile.com/category/events/
 - swipe events, etc.
 - 
+
+Project
+- generates it's own html
+- dynamically generates its screens using backbone
+- connects to an external data source - external data source: flicker, etc
+- jQuery mobile
+- Multi-tier architecture.
+- data for the client should be cached from the server side.
+- http://www.programmableweb.com/api/annotatedearth-location

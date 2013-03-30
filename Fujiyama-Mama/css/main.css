@@ -250,12 +250,13 @@ footer {
 
 /* --------------------------------------------------------------------------
 
-Landscape Tablet
-Min Width: 870px
+Breakpoint 5: Logo needs adjustment.
 Max Width: 959px
+Min Width: 871px
 
 ----------------------------------------------------------------------------*/
-@media only screen and (min-width: 870px) and (max-width: 959px){
+
+@media only screen and (min-width: 871px) and (max-width: 959px){
 h2 {
 	font-family: 'Yanone Kaffeesatz', sans-serif;
 }
@@ -397,8 +398,35 @@ footer {
 }
 
 
+/* --------------------------------------------------------------------------
 
-@media only screen and (min-width: 433px) and (max-width: 870px){
+Breakpoint 4: Bottom nav images get too small. Need bigger images between this point and the next. Main fish too big along. Logo needs adjustment.
+Max Width: 870px
+Min Width: 641px
+
+----------------------------------------------------------------------------*/
+
+
+/* --------------------------------------------------------------------------
+
+Landscape Tablet
+Max Width: 640px
+Min Width: 481px
+
+----------------------------------------------------------------------------*/
+
+
+
+
+/* --------------------------------------------------------------------------
+
+Breakpoint 3: Fish is too big. Navigation breaks. Header is off. Transition to alternating colors for paragraphs.
+Max Width: 480px
+Min Width: 433px
+
+----------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 433px) and (max-width: 480px){
 
 #btmNOne {
 	width: 32%;
@@ -432,11 +460,13 @@ footer {
 	display: inline-block;
 }
 }
+
 /* --------------------------------------------------------------------------
 
 Landscape Mobile / Tablet Portrait
-Min Width: 18em
+Fully transitioned navigation, alternating colors for text. Integrate 1/2 price sushi image. 
 Max Width: 432px
+Min Width: 18em
 
 ----------------------------------------------------------------------------*/
 @media only screen and (min-width: 18em) and (max-width: 432px){
@@ -472,11 +502,11 @@ h2 {
 }
 #fish {
 	background-color: #fff;
-	background-image:url(../img/Tuna.png);
+	background-image:url(../img/220-Tuna.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	margin: auto;
-	height: 10em;
+	height: 12em;
 }	
 
 #menuRPStrip {

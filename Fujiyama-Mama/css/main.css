@@ -93,7 +93,18 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
+/* --------------------------------------------------------------------------
+
+Laptop and Desktop (960px and up)
+
+----------------------------------------------------------------------------*/   
+   
 @media only screen (min-width: 960px){
+
+h2 {
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+}
 #header-left {
 	width: 20%;
 	height: 5.5em;
@@ -109,6 +120,7 @@ textarea {
 	color: #000;
 	clear: right;
 }
+
 #menu{
 	background-color: #000;
 	color: #fff;
@@ -121,10 +133,12 @@ ul.topNav {
 	padding: 0px;
 	margin: 0px;
 }
+
 ul li {
 	display: inline;
 	list-style-type: none;
 }
+
 #fish {
 	background-color: #fff;
 	background-image:url(../img/Tuna.png);
@@ -146,25 +160,67 @@ ul li {
 #mid-SectionBG {
 	background-color: rgb(226,215,199);
 }
+
 #contentWrapper {
 	margin: auto;
 	max-width: 65em;
 }
+
 #content {
 	padding: 1em;
 }
 
 #contentLeft {
-
+	width: 50%;
+	display: inline-block;
 }
 
 #contentRight {
-
+	width: 50%;
+	display: inline-block;
 }
 
 #btmNavBG {
 	background-color: #fff;
+	height: auto;
 }
+
+#btmNOne {
+	width: 24%;
+	background-image: url('../img/chocolate-bowl-ice-cream-2.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 10em;
+	display: inline-block;
+}
+
+#btmNTwo {
+	width: 24%;
+	background-image: url('../img/sm-hibachi.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 10em;
+	display: inline-block;
+}
+
+#btmNThree {
+	width: 24%;
+	background-image: url('../img/nav-yt.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 10em;
+	display: inline-block;
+}
+
+#btmNFour {
+	width: 25%;
+	background-image: url('../img/smBottles.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 10em;
+	display: inline-block;
+}
+
 #btmWrap {
 	margin: auto;
 	max-width: 65em;
@@ -191,10 +247,383 @@ footer {
 
 }
 
+
+/* --------------------------------------------------------------------------
+
+Landscape Tablet
+Min Width: 870px
+Max Width: 959px
+
+----------------------------------------------------------------------------*/
+@media only screen and (min-width: 870px) and (max-width: 959px){
+h2 {
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+#header-left {
+	width: 20%;
+	height: 5.5em;
+	float: left;
+	background-color: rgb(209,211,211);
+	clear: left;
+}
+#header-right {
+	width: 80%;
+	height: 5.5em;
+	float: right;
+	background-color: rgb(255,255,255);
+	color: #000;
+	clear: right;
+}
+
+#menu{
+	background-color: #000;
+	color: #fff;
+	font-size: 1.6em;
+	text-align: center;
+	font-weight: none;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+ul.topNav {
+	padding: 0px;
+	margin: 0px;
+}
+
+ul li {
+	display: inline;
+	list-style-type: none;
+}
+
+#fish {
+	background-color: #fff;
+	background-image:url(../img/Tuna.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	margin: auto;
+	height: 16em;
+}
+
+#stackedNav {
+	visibility: hidden;
+	display: none;
+}
+
+#strip {
+	background-color: #000;
+	height: 0.5em;
+}
+#mid-SectionBG {
+	background-color: rgb(226,215,199);
+}
+
+#contentWrapper {
+	margin: auto;
+	max-width: 65em;
+}
+
+#content {
+	padding: 1em;
+}
+
+#contentLeft {
+	width: 50%;
+	display: inline-block;
+}
+
+#contentRight {
+	width: 50%;
+	display: inline-block;
+}
+
+#btmNavBG {
+	background-color: #fff;
+	height: auto;
+}
+
+#btmNOne {
+	width: 33%;
+	background-image: url('../img/chocolate-bowl-ice-cream-2.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 10em;
+	display: inline-block;
+}
+
+#btmNTwo {
+	display: none;
+}
+
+#btmNThree {
+	width: 33%;
+	background-image: url('../img/nav-yt.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 10em;
+	display: inline-block;
+}
+
+#btmNFour {
+	width: 33%;
+	background-image: url('../img/smBottles.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 10em;
+	display: inline-block;
+}
+
+#btmWrap {
+	margin: auto;
+	max-width: 65em;
+}
+#btmContent {
+	padding: 1em;
+}
+
+footer {
+	background-color: #000;
+}
+#footWrap {
+	margin: auto;
+	max-width: 65em;
+}
+#footContent {	
+	padding: .05em;
+	color: #fff;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 1.2em;
+}
+.control {
+	clear: both;
+}
+}
+
+
+
+@media only screen and (min-width: 433px) and (max-width: 870px){
+
+#btmNOne {
+	width: 32%;
+	background-image: url('../img/140-choco.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 6em;
+	display: inline-block;
+}
+
+#btmNTwo {
+	display: none;
+	visibility: none;
+}
+
+#btmNThree {
+	width: 32%;
+	background-image: url('../img/140-yt.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 6em;
+	display: inline-block;
+}
+
+#btmNFour {
+	width: 32%;
+	background-image: url('../img/140-bottles.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 6em;
+	display: inline-block;
+}
+}
+/* --------------------------------------------------------------------------
+
+Landscape Mobile / Tablet Portrait
+Min Width: 18em
+Max Width: 432px
+
+----------------------------------------------------------------------------*/
+@media only screen and (min-width: 18em) and (max-width: 432px){
+body {
+	background-color: rgb(226,215,199);
+}
+
+h2 {
+	font-size: 150%;
+	padding-bottom: 0px;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	text-align: center;
+}
+
+#smHeader {
+	background-image:url(../img/fujiyama-mama.png);
+	background-repeat: no-repeat;
+	background-color: #fff;
+	height: 3em;
+}
+
+#bigHeader {
+	visibility: none;
+	display: none;
+}
+
+#header-left {
+	width: 50%;
+	height: 3em;
+	float: left;
+	background-color: rgb(209,211,211);
+	clear: left;
+}
+#fish {
+	background-color: #fff;
+	background-image:url(../img/Tuna.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	margin: auto;
+	height: 10em;
+}	
+
+#menuRPStrip {
+	background-color: #000;
+	height: 0.5em;
+}
+
+#stackedNav {
+	visibility: visible;
+	display: block;
+	text-align: center;
+}
+
+#mid-SectionBG {
+	background-color: rgb(226,215,199);
+}
+
+#contentWrapper {
+	margin: auto;
+	width: 100%;
+	background-color: rgb(226,215,199);
+}
+
+#content {
+	padding: 0px;
+}
+
+.blackNav {
+	background-color: #000;
+	color: #fff;
+	font-size: 2em;
+	text-align: center;
+	font-weight: none;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.whiteNav {
+	background-color: #fff;
+	color: #000;
+	font-size: 2em;
+	text-align: center;
+	font-weight: none;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.beige{
+	background-color: rgb(226,215,199);
+}
+
+.white {
+	background-color: #fff;
+}
+
+.stopTopPad {
+	padding-top: 0px;
+}
+
+p {
+	padding: 1em;
+}
+
+ul.topNav {
+	visibility: hidden;
+	display: none;
+}
+
+#btmNavBG {
+	background-color: #fff;
+}
+#btmWrap {
+	margin: auto;
+	max-width: 65em;
+}
+
+#btmContent {
+	padding: 1em;
+}
+#btmNOne {
+	display: none;
+}
+
+#btmNTwo {
+	display: none;
+}
+
+#btmNThree {
+	display: none;
+}
+
+#btmNFour {
+	display: none;
+}
+
+footer {
+	background-color: #000;
+}
+
+#footWrap {
+	margin: auto;
+	max-width: 65em;
+}
+
+#footContent {	
+	padding: .05em;
+	color: #fff;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 1.2em;
+}
+}
+
+/* --------------------------------------------------------------------------
+
+Mobile Device Styles
+max width: 18em
+covers 18em and below.
+----------------------------------------------------------------------------*/
 @media only screen and (max-width: 18em){
 
-h1 {
-	font-size: 25%;
+body {
+	background-color: rgb(226,215,199);
+}
+
+h2 {
+	font-size: 150%;
+	padding-bottom: 0px;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	text-align: center;
+}
+
+#smHeader {
+	background-image:url(../img/fujiyama-mama.png);
+	background-repeat: no-repeat;
+	background-color: #fff;
+	height: 3em;
+}
+
+#bigHeader {
+	visibility: none;
+	display: none;
+}
+
+#header-left {
+	width: 50%;
+	height: 3em;
+	float: left;
+	background-color: rgb(209,211,211);
+	clear: left;
 }
 #fish {
 	background-color: #fff;
@@ -205,13 +634,9 @@ h1 {
 	height: 10em;
 }	
 
-#bigHeader {
-	visibility: none;
-	display: none;
-}
-
-#smHeader {
-	
+#menuRPStrip {
+	background-color: #000;
+	height: 0.5em;
 }
 
 #stackedNav {
@@ -219,7 +644,22 @@ h1 {
 	display: block;
 	text-align: center;
 }
-.black {
+
+#mid-SectionBG {
+	background-color: rgb(226,215,199);
+}
+
+#contentWrapper {
+	margin: auto;
+	width: 100%;
+	background-color: rgb(226,215,199);
+}
+
+#content {
+	padding: 0px;
+}
+
+.blackNav {
 	background-color: #000;
 	color: #fff;
 	font-size: 2em;
@@ -228,7 +668,7 @@ h1 {
 	font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
-.white {
+.whiteNav {
 	background-color: #fff;
 	color: #000;
 	font-size: 2em;
@@ -237,33 +677,27 @@ h1 {
 	font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
+.beige{
+	background-color: rgb(226,215,199);
+}
+
+.white {
+	background-color: #fff;
+}
+
+.stopTopPad {
+	padding-top: 0px;
+}
+
+p {
+	padding: 1em;
+}
+
 ul.topNav {
 	visibility: hidden;
 	display: none;
 }
 
-
-
-#contentWrapper {
-	margin: auto;
-	background-color: none;
-}
-
-#content {
-	padding: 1em;
-	background-color: none;
-}
-
-#contentLeft {
-
-}
-
-#contentRight {
-
-}
-#par2 {
-	background-color: #fff;
-}
 #btmNavBG {
 	background-color: #fff;
 }
@@ -271,26 +705,26 @@ ul.topNav {
 	margin: auto;
 	max-width: 65em;
 }
+
 #btmContent {
 	padding: 1em;
 }
+
 footer {
 	background-color: #000;
 }
+
 #footWrap {
 	margin: auto;
 	max-width: 65em;
 }
+
 #footContent {	
 	padding: .05em;
 	color: #fff;
 	font-family: 'Yanone Kaffeesatz', sans-serif;
 	font-size: 1.2em;
 }
-.control {
-	clear: both;
-}
-
 
 }
 

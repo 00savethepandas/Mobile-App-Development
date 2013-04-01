@@ -99,9 +99,6 @@ textarea {
 Laptop and Desktop (960px and up)
 
 ----------------------------------------------------------------------------*/   
-   
-@media only screen (min-width: 960px){
-
 h2 {
 	font-family: 'Yanone Kaffeesatz', sans-serif;
 	padding-left: 1em;
@@ -264,8 +261,6 @@ footer {
 .sashimi2 {
         visibility: hidden;
 	display: none;
-}
-
 }
 
 

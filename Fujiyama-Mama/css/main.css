@@ -100,11 +100,10 @@ Laptop and Desktop (960px and up)
 
 ----------------------------------------------------------------------------*/   
    
-@media only screen (min-width: 960px){
-
 h2 {
 	font-family: 'Yanone Kaffeesatz', sans-serif;
 	padding-left: 1em;
+	font-weight: lighter;
 }
 
 p {
@@ -247,7 +246,7 @@ footer {
 	max-width: 65em;
 }
 #footContent {	
-	padding: .05em;
+	padding: 1em;
 	color: #fff;
 	font-family: 'Yanone Kaffeesatz', sans-serif;
 	font-size: 1.2em;
@@ -262,7 +261,7 @@ footer {
 }
 
 .sashimi2 {
-        visibility: hidden;
+    visibility: hidden;
 	display: none;
 }
 
@@ -277,7 +276,7 @@ Min Width: 871px
 
 ----------------------------------------------------------------------------*/
 
-@media only screen and (min-width: 871px) and (max-width: 959px){
+@media screen and (min-width: 871px) and (max-width: 959px){
 h2 {
 	font-family: 'Yanone Kaffeesatz', sans-serif;
 	padding-left: 1em;
@@ -303,6 +302,7 @@ p {
 	clear: right;
 }
 
+
 #menu{
 	background-color: #000;
 	color: #fff;
@@ -314,6 +314,11 @@ p {
 ul.topNav {
 	padding: 0px;
 	margin: 0px;
+}
+
+ul li {
+	display: inline;
+	list-style-type: none;
 }
 
 .stackedNav {
@@ -339,12 +344,17 @@ ul.topNav {
 }
 
 #contentLeft {
+	width: 50%;
 	display: inline-block;
+	float: left;
 }
 
 #contentRight {
+	width: 48%;
 	display: inline-block;
 	background-image: url('../img/2img.png');
+	background-repeat: no-repeat;
+	height: 500px;
 	float: right;
 }
 
@@ -405,9 +415,7 @@ footer {
 	font-family: 'Yanone Kaffeesatz', sans-serif;
 	font-size: 1.2em;
 }
-.control {
-	clear: both;
-}
+
 }
 
 
@@ -420,7 +428,7 @@ Min Width: 641px
 
 ----------------------------------------------------------------------------*/
 
-@media only screen and (min-width: 731px) and (max-width: 870px){
+@media screen and (min-width: 731px) and (max-width: 870px){
 
 h2 {
     padding-left: 1em;
@@ -434,13 +442,10 @@ p {
 	width: 50%;
 	display: inline-block;
 }
-
-
 #contentRight {
 	width: 48%;
 	display: inline-block;
 	background-image: url('../img/2img.png');
-	background-position: bottom;
 	background-repeat: no-repeat;
 	height: 500px;
 	float: right;
@@ -460,14 +465,6 @@ p {
 	background-color: rgb(255,255,255);
 	color: #000;
 	clear: right;
-}
-#btmNOne {
-	width: 32%;
-	background-image: url('../img/chocolate-bowl-ice-cream-2.jpg');
-	background-position: center;
-	background-repeat: no-repeat;
-	height: 10em;
-	display: inline-block;
 }
 
 #btmNTwo {
@@ -501,7 +498,7 @@ Min Width: 551px
 
 ----------------------------------------------------------------------------*/
 
-@media only screen and (min-width: 570px) and (max-width: 730px){
+@media screen and (min-width: 570px) and (max-width: 730px){
     
 #contentLeft {
 	width: auto;
@@ -561,11 +558,12 @@ Min Width: 551px
 }
 
 .sashimi {
-        visibility: visible;
+    visibility: visible;
 	display: inline-block;
 	float: right;
-        padding: 1em;
+    padding: 1em;
 }
+
 }
 
 /* --------------------------------------------------------------------------
@@ -576,7 +574,7 @@ Min Width: 550px
 
 ----------------------------------------------------------------------------*/
 
-@media only screen and (min-width: 481px) and (max-width: 569px){
+@media screen and (min-width: 481px) and (max-width: 569px){
 body {
 	background-color: rgb(226,215,199);
 }
@@ -685,7 +683,7 @@ p {
 	background-color: #fff;
 }
 .sashimi2 {
-        visibility: visible;
+    visibility: visible;
 	display: inline-block;
 	float: right;
 	padding-left: 1em;
@@ -700,7 +698,7 @@ Max Width: 432px
 Min Width: 18em
 
 ----------------------------------------------------------------------------*/
-@media only screen and (min-width:401px) and (max-width: 480px){
+@media screen and (min-width:401px) and (max-width: 480px){
 body {
 	background-color: rgb(226,215,199);
 }
@@ -880,7 +878,7 @@ Mobile Device Styles
 max width: 18em
 covers 18em and below.
 ----------------------------------------------------------------------------*/
-@media only screen and (max-width: 400px){
+@media screen and (max-width: 400px){
 
 body {
 	background-color: rgb(226,215,199);
@@ -1043,6 +1041,7 @@ footer {
 #btmNFour {
 	display: none;
 }
+
 
 }
 

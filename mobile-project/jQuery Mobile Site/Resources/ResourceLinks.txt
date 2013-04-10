@@ -1,0 +1,6 @@
+jQuery Mobile Documentation:
+
+Demos (main page): http://jquerymobile.com/demos/1.1.0/index.html
+Events: http://jquerymobile.com/demos/1.1.0/docs/api/events.html
+Pages, Page Transitions: http://jquerymobile.com/demos/1.1.0/docs/pages/page-transitions.html
+Modifying Headers: http://jquerymobile.com/demos/1.1.0/docs/toolbars/docs-headers.html

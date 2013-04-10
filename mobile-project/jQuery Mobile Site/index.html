@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+            
+        <!-- Mobile Viewport -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/jquery.mobile-1.3.0.css">
+        <link rel="stylesheet" href="jquery.ui.datepicker.mobile.css" /> 
+        <script src="jQuery.ui.datepicker.js"></script>
+        <script src="jquery.ui.datepicker.mobile.js"></script>
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <script src="js/vendor/filter.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+
+
+<!-- Add your site or application content here -->
+    
+    <!-- Home Page -->  
+     <div id="home" data-role="page">
+        <div data-role="header"><h1>Casus Event Finder</h1></div><!-- End div header -->        
+            <div data-role="collapsible-set" data-theme="c" data-content-theme="d">
+            <div data-role="collapsible" data-collapsed="false">
+            <h3>Search by Location</h3>
+                <p><label for="search-basic">Enter Your City or Zip Code:</label>
+                <input type="search" name="search" id="searc-basic" value="" data-mini="true" />
+            </div>	
+            <div data-role="collapsible">
+            <h3>Search by Date</h3>
+                <label for="date">Date Input:</label>
+                <input type="date" name="date" id="date" value=""  />
+                <script>
+                    //reset type=date inputs to text
+                      $( document ).bind( "mobileinit", function(){
+                      $.mobile.page.prototype.options.degradeInputs.date = true;
+                    });	
+                </script>
+            </div>
+            <div data-role="collapsible">
+            <h3>Search By Category</h3>
+                    <div data-role="content">
+            
+            <ul id="custom-format-listview" data-role="listview" data-filter="true">
+                <li>
+                	<h2>Concerts</h2>
+                </li>
+                <li>
+                	<h2>Conferences</h2>
+                </li>
+                <li>
+                	<h2>Education</h2>
+                </li>
+                <li>
+                	<h2>Family</h2>
+                </li>
+                                <li>
+                	<h2>Festivals</h2>
+                </li>
+                <li>
+                	<h2>Film</h2>
+                </li>
+                <li>
+                	<h2>Food</h2>
+                </li>
+                <li>
+                	<h2>Fundraisers</h2>
+                </li>
+                                <li>
+                	<h2>Galleries</h2>
+                </li>
+                <li>
+                	<h2>Health</h2>
+                </li>
+                <li>
+                	<h2>Literary</h2>
+                </li>
+                <li>
+                	<h2>Museums</h2>
+                </li>
+                                <li>
+                	<h2>Neighborhood</h2>
+                </li>
+                <li>
+                	<h2>Networking</h2>
+                </li>
+                <li>
+                	<h2>Nightlife</h2>
+                </li>
+                <li>
+                	<h2>On Campus</h2>
+                </li>
+                                <li>
+                	<h2>Organizations</h2>
+                </li>
+                <li>
+                	<h2>Outdoors</h2>
+
+                </li>
+                <li>
+                	<h2>Performing Arts</h2>
+
+                </li>
+                <li>
+                	<h2>Pets</h2>
+
+                </li>
+                                <li>
+                	<h2>Politics</h2>
+
+                </li>
+                <li>
+                	<h2>Sales</h2>
+
+                </li>
+                <li>
+                	<h2>Science</h2>
+
+                </li>
+                <li>
+                	<h2>Spirituality</h2>
+
+                </li>
+                                <li>
+                	<h2>Sports/h2>
+                </li>
+                <li>
+                	<h2>Technology</h2>
+
+                </li>
+                <li>
+                	<h2>Other</h2>
+                </li>
+            </ul>
+            
+        </div>
+                    
+                    
+                    
+            </div>
+        </div>
+     </div>
+    <!-- End Homepage -->
+    
+    <!-- Event List Page -->
+    <div id="eventList" data-role="page">
+        <div data-role="header"><h1>Event List</h1></div><!-- End div header -->
+        <a href="#home" data-transition="slide">Home</a>
+        <a href="#eventList" data-transition="slide">Event List</a>
+        <a href="#eventInfo" data-transition="slide">Event Information</a>
+    </div>
+    <!-- End Event List Page -->
+    
+    <!-- Event Info Page -->
+    <div id="eventInfo" data-role="page">
+        <div data-role="header"><h1>Event Info</h1></div><!-- End div header -->
+        <a href="#home" data-transition="slide">Home</a>
+        <a href="#eventList" data-transition="slide">Event List</a>
+        <a href="#eventInfo" data-transition="slide">Event Information</a>
+    </div>
+    <!-- End Event Info Page-->
+    
+<!-- vendor scripts -->
+        <script src="js/vendor/jquery-1.9.1.min.js"></script>
+        <script src="js/vendor/jquery.mobile-1.3.0.min.js"></script>
+        <script src="js/vendor/backbone-min.js"></script>
+        <script src="js/vendor/underscore-min.js"></script>
+        <script src="js/plugins.js"></script>
+        
+        <script src="js/main.js"></script>
+    </body>
+</html>
